@@ -7,7 +7,16 @@
     width: 100%;
     opacity: 0.5;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    object-fit:cover;
+    position: relative;
+    padding: 15rem 0;
+    background-position: center;
+    background-size: cover;
+}
     
+.bg-content container btn{
+    font-size: 2rem;
 }
 .nav-item a{
     color: white;
@@ -27,8 +36,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
-    margin-left: 50px;
+
+    
 }
 
 .global-logistics-wrapper {
@@ -36,7 +45,7 @@
     position: relative;
     padding: 85px;
     margin-top: -80px;
-}
+}*/
 .global-logistics-images {
     position: relative;
 }
@@ -57,24 +66,13 @@
     position: relative;
     
 }
-.features-device-mockup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 .features-device-mockup .circle {
     position: absolute;
     left: 0;
     fill: url(#circleGradient);
     width: 70%;
     display: none;
-}
-#img1{
-    display: flex;
-    padding-top: 20px;
-    padding-left: 0px;
-    border-radius: 5px;
+    margin: 10 0 ;
 }
 .img-fluid{
     max-width: 100%;
@@ -83,12 +81,23 @@
 
 .bg-card{
     background-color: #111C55;
+    color: #ffffff !important;
 }
 .features-device-mockup .circle .gradient-start-color {
     stop-color: #111C55;
 }
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #111C55, #ffda56) !important;
+}
 .features-device-mockup .circle .gradient-end-color {
     stop-color: #ffda56;
+}
+.app-badge{
+    height: 3rem;
+}
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
 }
 .features-device-mockup .shape-1 {
     position: absolute;
